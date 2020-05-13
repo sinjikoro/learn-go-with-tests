@@ -11,7 +11,7 @@ const frenchHelloPrefix = "Bonjour, "
 // Hello returns a personalised greeting in a given language
 func Hello(name string, language string) string {
 	if name == "" {
-		name = "Woorld"
+		name = "World"
 	}
 
 	return greetingPrefix(language) + name
